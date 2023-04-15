@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="javaScript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Menú-->
+    <header>
+      <div class="conteiner">
+        <div class="logo">
+          <a href="#">Millier</a>
+        </div>
+        <nav id="opciones">
+          <ul>
+            <li><a href="#inicio" onclick="subMenu()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="subMenu()">SOBRE MI</a></li>
+            <li><a href="#curriculum" onclick="subMenu()">CURRICULUM</a></li>
+          </ul>
+        </nav>
+        <div class="button-reponsive" onclick="clickMenu()">
+          <img src="img/barra-de-menus.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!--Derecha-->
+    <div class="hoja">
+      <section class="izquierda">
+        <div class="container-izq">
+          <div class="encabezado">
+            <h1>Millier Pasapera</h1>
+            <h2>Estudiante Ingeniería de Sistemas</h2>
+          </div>
+        </div>
+        <div class="titulo1">
+          <h1>Sobre Mí</h1>
+          <p>
+            Soy estudiante de la Universidad Nacional Toribio Rodriguez de
+            Mensoza, me encuentro cursando la carrera profesional de Ingeniería
+            de Sistemas en la Facultad de Ingeniería de Sistemas y Mecánica
+            Eléctrica.
+          </p>
+        </div>
+        <div class="titulo1">
+          <h1>Experiencia Laboral</h1>
+          <div class="izq">
+            <span class="fecha">2022</span>
+            <div>
+              <h4>Coordinador de Mesa T2</h4>
+              <span class="casa">ONPE</span>
+            </div>
+          </div>
+          <div class="izq">
+            <span class="fecha">2020</span>
+            <div>
+              <h4>Operador de Centro de Computo ODPE JAEN</h4>
+              <span class="casa">ONPE</span>
+            </div>
+          </div>
+          <div class="izq">
+            <span class="fecha">2019</span>
+            <div>
+              <h4>Encargado del Área de Ventas</h4>
+              <span class="casa">SERTEL PC S.R.L.</span>
+            </div>
+          </div>
+          <div class="izq">
+            <span class="fecha">2018 - 2019</span>
+            <div>
+              <h4>Mantenimiento y reparación de computadoras</h4>
+              <span class="casa">SERTEL PC S.R.L.</span>
+            </div>
+          </div>
+          <div class="redes">
+            <a href="https://www.facebook.com/MillierFP"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=51934576998&text=%F0%9F%98%80%20Hola%20me%20interesa%20tu%20hoja%20de%20vida.%20Podr%C3%ADas%20realizarme%20una%20parecida%3F%20"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://github.com/HolaMundo2023"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="mailto:7050423891@untrm.edu.pe?subject=Contrato Hoja de Vida&body=Tu hoja de vida es muy interesante, me gustaría que me ayudes."
+              ><i class="fa-sharp fa-regular fa-envelope"></i
+            ></a>
+            <a href="https://goo.gl/maps/na91BMoVQpFnREzf7"
+              ><i class="fa-sharp fa-solid fa-location-dot"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="derecha">
+        <div class="container-der">
+          <div class="imagen">
+            <img src="img/CV.png" alt="" />
+          </div>
+        </div>
+        <div class="titulo2">
+          <h1>Educación</h1>
+          <div class="der">
+            <h4>
+              Certificado «IV ENCUENTRO INTERNACIONAL DE SEMILLEROS DE
+              INVESTIGACION CIENTIFICA»
+            </h4>
+            <span class="casa">UNTRM</span>
+            <span class="fecha">2022</span>
+          </div>
+          <div class="der">
+            <h4>Certificado de Cursos de Ifomática</h4>
+            <span class="casa">Mirana Consultores</span>
+            <span class="fecha">2019</span>
+          </div>
+          <div class="der">
+            <h4>Certificado de Inglés Básico</h4>
+            <span class="casa">ICPNA - Chiclayo</span>
+            <span class="fecha">2019</span>
+          </div>
+          <div class="der">
+            <h4>Nivel Primario y Secundario</h4>
+            <span class="casa"
+              >I.E. Parroquial Sseñor de Huamantanga – Jaén</span
+            >
+            <span class="fecha">2008 - 2018</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="celular">
+      <!--Inicio-->
+      <section id="inicio" class="inicio">
+        <div class="banner">
+          <div>
+            <img src="img/CV.png" alt="" />
+          </div>
+          <h1>Millier Pasapera</h1>
+          <h2>Estudiante de Ingenieria de Sistemas</h2>
+        </div>
+      </section>
+
+      <!--Sobre Mi-->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-yo">
+          <h2>Sobre Mí</h2>
+          <p>
+            <span>Soy Millier Pasapera. </span>Soy estudiante de la Universidad
+            Nacional Toribio Rodriguez de Mensoza, me encuentro cursando la
+            carrera profesional de Ingeniería de Sistemas en la Facultad de
+            Ingeniería de Sistemas y Mecánica Eléctrica.
+          </p>
+          <div class="datos-Personal">
+            <div class="lista">
+              <h3>Datos Personales</h3>
+              <ul>
+                <li>
+                  <strong>Cumpleaños</strong>
+                  22-06-2001
+                </li>
+                <li>
+                  <strong>Teléfono</strong>
+                  +51 934 - 576 - 998
+                </li>
+                <li>
+                  <strong>Gmail</strong>
+                  7050423891@untrm.edu.pe
+                </li>
+                <li>
+                  <strong>Dirección</strong>
+                  Jr. Miraflores N° 694
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Curriculum-->
+      <section id="curriculum" class="curriculum">
+        <div class="experiencia">
+          <h2>Curriculum</h2>
+          <div class="columna">
+            <div class="izquierda">
+              <h3>Educación</h3>
+              <div class="izq">
+                <h4>Nivel Primario y Secundario</h4>
+                <span class="casa"
+                  >I.E. Parroquial Sseñor de Huamantanga – Jaén</span
+                >
+                <span class="fecha">2008 - 2018</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="izq">
+                <h4>Certificado de Inglés Básico</h4>
+                <span class="casa">ICPNA - Chiclayo</span>
+                <span class="fecha">2019</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="izq">
+                <h4>Certificado de Cursos de Ifomática</h4>
+                <span class="casa">Mirana Consultores</span>
+                <span class="fecha">2019</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="izq">
+                <h4>
+                  Certificado «IV ENCUENTRO INTERNACIONAL DE SEMILLEROS DE
+                  INVESTIGACION CIENTIFICA»
+                </h4>
+                <span class="casa">UNTRM</span>
+                <span class="fecha">2022</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+            </div>
+            <div class="derecha">
+              <h3>Experiencia de Trabajo</h3>
+              <div class="der">
+                <h4>Mantenimiento y reparación de computadoras</h4>
+                <span class="casa">SERTEL PC S.R.L.</span>
+                <span class="fecha">2018 - 2019</span>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+              <div class="der">
+                <h4>Encargado del Área de Ventas</h4>
+                <span class="casa">SERTEL PC S.R.L.</span>
+                <span class="fecha">2019</span>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+              <div class="der">
+                <h4>Operador de Centro de Computo ODPE JAEN</h4>
+                <span class="casa">ONPE</span>
+                <span class="fecha">2020</span>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+              <div class="der">
+                <h4>Coordinador de Mesa T2</h4>
+                <span class="casa">ONPE</span>
+                <span class="fecha">2022</span>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="redes">
+          <a href="https://www.facebook.com/MillierFP"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=51934576998&text=%F0%9F%98%80%20Hola%20me%20interesa%20tu%20hoja%20de%20vida.%20Podr%C3%ADas%20realizarme%20una%20parecida%3F%20"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://github.com/HolaMundo2023"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="mailto:7050423891@untrm.edu.pe?subject=Contrato Hoja de Vida&body=Tu hoja de vida es muy interesante, me gustaría que me ayudes."
+            ><i class="fa-sharp fa-regular fa-envelope"></i
+          ></a>
+          <a href="https://goo.gl/maps/na91BMoVQpFnREzf7"
+            ><i class="fa-sharp fa-solid fa-location-dot"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
